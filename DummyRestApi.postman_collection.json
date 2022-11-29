@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "ec62571d-b981-41c1-b60c-90603422a89a",
+		"name": "DummyRestApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": " application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\":\"Mukesh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Simple_Json/EMP_01",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Simple_Json",
+						"EMP_01"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": " application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"Sumit_02\",\r\n  \"name\": \"Sumit kumar\",\r\n  \"last\": \"Chaudhary\",\r\n  \"no\":\"9971458090\"\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Simple_Json/Sumit_02",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Simple_Json",
+						"Sumit_02"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": " application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "{",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "Sumit_02",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "sumit kumar",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "last name",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "chaudhary",
+							"value": "",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Simple_Json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Simple_Json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
